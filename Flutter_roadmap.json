@@ -1,0 +1,5528 @@
+{
+  "metadata": {
+    "title": "Flutter",
+    "color": "Blue",
+    "password": "",
+    "createdBy": "Admin",
+    "description": ""
+  },
+  "nodes": [
+    {
+      "data": {
+        "estimatedHours": "8",
+        "collapsed": false,
+        "label": "Dart v3",
+        "parentId": null,
+        "notes": "NOTE 1: Mục đích của việc học Dart là có đủ kiến thức để verify code của AI và có skill debug code. Nếu bạn đã nắm vững một ngôn ngữ lập trình khác rồi, bạn hoàn toàn có thể bỏ qua phần này. Trong quá trình AI gen code, nếu thấy keyword nào lạ lẫm, bạn có thể research để hiểu thêm.\n\nNOTE 2: Dart hiện tại đã ra tới v3. Giữa 3 version của nó, có rất nhiều sự thay đổi, đặc biệt là từ v1 lên v2 có 1 sự thay đổi lớn là Null-Safety. Vì vậy hãy cẩn thận khi học tài liệu quá cũ. Nếu bạn sử dụng ChatGPT để học thì nên nhập vào phần Instruction yêu cầu sử dụng Dart v3 và Flutter version mới nhất.",
+        "questions": []
+      },
+      "id": "node_1775846148396",
+      "type": "milestone",
+      "position": {
+        "y": -92.0071320226132,
+        "x": -180.34189501521433
+      },
+      "roadmapId": "public_shared_roadmap"
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 14.887764612730507,
+        "x": 58.33696356696589
+      },
+      "id": "node_1775846152842",
+      "type": "category",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "parentId": "node_1775846148396",
+        "collapsed": false,
+        "label": "Basic"
+      }
+    },
+    {
+      "position": {
+        "y": 433.818769146382,
+        "x": 60.46316505067557
+      },
+      "roadmapId": "public_shared_roadmap",
+      "data": {
+        "label": "OOP",
+        "collapsed": false,
+        "parentId": null,
+        "notes": "",
+        "questions": []
+      },
+      "id": "node_1775846157099",
+      "type": "category"
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "x": 404.49785110337416,
+        "y": 15.15131353360016
+      },
+      "data": {
+        "notes": "TIP 1: Để thực hành Dart nhanh thì chỉ cần code và chạy trên https://dartpad.dev/\n\nTIP 2: Cách share code từ DartPad cho người khác tham khảo: https://codewithandrea.com/tips/create-dartpad-from-github-gist/",
+        "questions": [],
+        "parentId": null,
+        "label": "Hàm main(), print(), kiểu dữ liệu, khai báo biến, String template, String raw",
+        "collapsed": false
+      },
+      "type": "lesson",
+      "id": "node_1775874975653"
+    },
+    {
+      "data": {
+        "collapsed": false,
+        "label": "Asynchronous",
+        "parentId": null,
+        "questions": [],
+        "notes": ""
+      },
+      "id": "node_1775876305508_391",
+      "type": "category",
+      "position": {
+        "y": 772.3240227855233,
+        "x": 46.177284653068796
+      },
+      "roadmapId": "public_shared_roadmap"
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "x": 556.2066345393655,
+        "y": 81.93597774904842
+      },
+      "data": {
+        "notes": "operators thì có rất nhiều nhưng đa phần là giống ngôn ngữ khác nên không cần học. Mình list ra cho đủ chương trình thôi. Sau này gen code hoặc đọc tài liệu mà thấy operator nào quen thuộc thì có thể đoán, nếu thấy lạ lẫm thì research thôi.  ",
+        "questions": [],
+        "parentId": "node_1775846152842",
+        "label": "operators, if/else, loop, switch",
+        "collapsed": false
+      },
+      "type": "lesson",
+      "id": "node_1775879486110_389"
+    },
+    {
+      "position": {
+        "y": 213.4958125715484,
+        "x": 544.6789707554299
+      },
+      "roadmapId": "public_shared_roadmap",
+      "data": {
+        "questions": [],
+        "notes": "NOTE 1: Đối với hàm có 2 param trở lên thì nên sử dụng named parameters\n\nNOTE 2: Cần phân biệt được function và method để đọc tài liệu trên mạng dễ hiểu hơn. Nếu chưa hiểu khái niệm method thì học xong phần OOP ở dưới sẽ hiểu. ",
+        "label": "functions, params, named/default",
+        "collapsed": false,
+        "parentId": "node_1775880216799_339"
+      },
+      "id": "node_1775879547260_164",
+      "type": "lesson"
+    },
+    {
+      "parentNode": "node_1775930941308_583",
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "x": 19.85556095120569,
+        "y": 83.9260043275101
+      },
+      "type": "lesson",
+      "id": "node_1775880187805_579",
+      "data": {
+        "parentId": "node_1775879547260_164",
+        "label": "try/catch/on/finally, throw, rethrow, Exception",
+        "collapsed": false,
+        "notes": "",
+        "questions": []
+      }
+    },
+    {
+      "type": "lesson",
+      "id": "node_1775880216799_339",
+      "data": {
+        "label": "List/Set/Map, spread, collection if/for",
+        "parentId": "node_1775880187805_579",
+        "collapsed": false,
+        "questions": [],
+        "notes": "spread, collection if là 2 toán tử rất hay dùng trong việc build UI trong Flutter"
+      },
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "x": 527.6759685881301,
+        "y": 149.7083578080314
+      }
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775930977613_664",
+      "position": {
+        "x": 16.628777785177817,
+        "y": 82.16648112453709
+      },
+      "data": {
+        "collapsed": false,
+        "parentId": null,
+        "label": "High order funtion / Function Type / Tear-offs",
+        "priority": "should",
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      },
+      "id": "node_1775880366034_775",
+      "type": "lesson"
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775922354091_145",
+      "position": {
+        "x": 32.50120067907778,
+        "y": 22.42170291440118
+      },
+      "data": {
+        "isNiceToHave": true,
+        "parentId": "node_1775879547260_164",
+        "collapsed": false,
+        "label": "Local funtions",
+        "notes": "",
+        "questions": []
+      },
+      "id": "node_1775880371235_720",
+      "type": "lesson"
+    },
+    {
+      "position": {
+        "x": 102.73221401789726,
+        "y": 27.233616334517137
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775930941308_583",
+      "data": {
+        "isNiceToHave": false,
+        "collapsed": false,
+        "parentId": "node_1775879547260_164",
+        "label": "Extension functions",
+        "notes": "",
+        "questions": []
+      },
+      "id": "node_1775880472418_626",
+      "type": "lesson"
+    },
+    {
+      "position": {
+        "x": 106.43879131718882,
+        "y": 22.021822897437914
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775930977613_664",
+      "id": "node_1775880585375_249",
+      "type": "lesson",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "collapsed": false,
+        "parentId": "node_1775880371235_720",
+        "label": "Generic functions",
+        "priority": "should",
+        "isNiceToHave": false
+      }
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775922354091_145",
+      "position": {
+        "x": 215.10468906909978,
+        "y": 23.107362659484693
+      },
+      "data": {
+        "isNiceToHave": true,
+        "collapsed": false,
+        "label": "typedef",
+        "parentId": "node_1775879547260_164",
+        "notes": "",
+        "questions": []
+      },
+      "type": "lesson",
+      "id": "node_1775880840337_623"
+    },
+    {
+      "id": "node_1775881029205_565",
+      "type": "lesson",
+      "data": {
+        "collapsed": false,
+        "label": "class / enum / constructor / factory / getter / setter / Access modifier",
+        "parentId": "node_1775846157099",
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      },
+      "position": {
+        "y": 434.77783160226625,
+        "x": 455.20917270697794
+      },
+      "roadmapId": "public_shared_roadmap"
+    },
+    {
+      "type": "lesson",
+      "id": "node_1775881041450_396",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "collapsed": false,
+        "parentId": "node_1775846157099",
+        "label": "Abstract class / Kế thừa (extends, implements) / override",
+        "isNiceToHave": false
+      },
+      "position": {
+        "y": 502.27825470773155,
+        "x": 493.47674429805795
+      },
+      "roadmapId": "public_shared_roadmap"
+    },
+    {
+      "position": {
+        "y": 774.0984589893809,
+        "x": 285.38314838469785
+      },
+      "roadmapId": "public_shared_roadmap",
+      "id": "node_1775889681070_103",
+      "type": "lesson",
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": false,
+        "collapsed": false,
+        "label": "Future / async / await",
+        "parentId": "node_1775876305508_391"
+      }
+    },
+    {
+      "position": {
+        "y": 865.8418256039035,
+        "x": 285.97286515839915
+      },
+      "roadmapId": "public_shared_roadmap",
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": false,
+        "parentId": "node_1775876305508_391",
+        "collapsed": false,
+        "label": "import / export / as / show / hide"
+      },
+      "id": "node_1775889723923_888",
+      "type": "lesson"
+    },
+    {
+      "id": "node_1775889747737_568",
+      "type": "lesson",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "label": "Stream",
+        "parentId": "node_1775889681070_103",
+        "collapsed": false,
+        "isNiceToHave": false,
+        "priority": "should"
+      },
+      "position": {
+        "y": 742.4200605683635,
+        "x": 568.7019064060698
+      },
+      "roadmapId": "public_shared_roadmap"
+    },
+    {
+      "data": {
+        "collapsed": false,
+        "label": "part / part of",
+        "parentId": "node_1775889723923_888",
+        "isNiceToHave": false,
+        "priority": "should",
+        "questions": [],
+        "notes": ""
+      },
+      "type": "lesson",
+      "id": "node_1775889810791_143",
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 865.859852835968,
+        "x": 629.1477238472512
+      }
+    },
+    {
+      "data": {
+        "collapsed": false,
+        "label": "mixin",
+        "parentId": "node_1775881041450_396",
+        "priority": "should",
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      },
+      "id": "node_1775889859442_431",
+      "type": "lesson",
+      "position": {
+        "y": 26.71280119632104,
+        "x": 25.589050863991133
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775975551488_363"
+    },
+    {
+      "position": {
+        "y": 864.0601278616664,
+        "x": 31.852791251324334
+      },
+      "roadmapId": "public_shared_roadmap",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "parentId": "node_1775876305508_391",
+        "collapsed": false,
+        "label": "Code Organization",
+        "isNiceToHave": false
+      },
+      "id": "node_1775890346422_537",
+      "type": "category"
+    },
+    {
+      "position": {
+        "y": 80.12880984747528,
+        "x": 210.90197124521842
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775925519293_533",
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": true,
+        "parentId": "node_1775881041450_396",
+        "label": "Annotation",
+        "collapsed": false
+      },
+      "id": "node_1775890390352_299",
+      "type": "lesson"
+    },
+    {
+      "position": {
+        "y": 82.59702745868492,
+        "x": 22.208303510150586
+      },
+      "parentNode": "node_1775975551488_363",
+      "roadmapId": "public_shared_roadmap",
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": false,
+        "priority": "should",
+        "collapsed": false,
+        "parentId": "node_1775881041450_396",
+        "label": "generic class"
+      },
+      "id": "node_1775893964818_334",
+      "type": "lesson"
+    },
+    {
+      "data": {
+        "questions": [],
+        "notes": "",
+        "label": "Class modifiers",
+        "parentId": "node_1775893964818_334",
+        "collapsed": false,
+        "isNiceToHave": true
+      },
+      "id": "node_1775893973252_873",
+      "type": "lesson",
+      "parentNode": "node_1775925519293_533",
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 25.25346422748214,
+        "x": 24.25322395527064
+      }
+    },
+    {
+      "id": "node_1775903928699_336",
+      "type": "lesson",
+      "data": {
+        "notes": "",
+        "questions": [],
+        "priority": "nice",
+        "isNiceToHave": true,
+        "collapsed": false,
+        "parentId": null,
+        "label": "Records (tuple)"
+      },
+      "parentNode": "node_1775922354091_145",
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "x": 209.20723728595226,
+        "y": 79.08839606857566
+      }
+    },
+    {
+      "position": {
+        "x": 21.99403070501944,
+        "y": 78.2119173577014
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775922354091_145",
+      "data": {
+        "label": "Pattern matching",
+        "collapsed": false,
+        "parentId": null,
+        "priority": "nice",
+        "isNiceToHave": true,
+        "questions": [],
+        "notes": ""
+      },
+      "id": "node_1775903935928_912",
+      "type": "lesson"
+    },
+    {
+      "data": {
+        "label": "Custom Exception",
+        "parentId": null,
+        "collapsed": false,
+        "isNiceToHave": false,
+        "priority": "must",
+        "questions": [],
+        "notes": ""
+      },
+      "type": "lesson",
+      "id": "node_1775904143445_188",
+      "position": {
+        "x": 18.910517533084374,
+        "y": 82.52230914213965
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775928339687_187"
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775925519293_533",
+      "position": {
+        "y": 82.34352186624926,
+        "x": 25.75915157628083
+      },
+      "data": {
+        "collapsed": false,
+        "parentId": null,
+        "label": "Extension types",
+        "priority": "nice",
+        "isNiceToHave": true,
+        "questions": [],
+        "notes": ""
+      },
+      "id": "node_1775923646751_173",
+      "type": "lesson"
+    },
+    {
+      "data": {
+        "questions": [],
+        "notes": "",
+        "parentId": null,
+        "label": "Operators overloading",
+        "collapsed": false,
+        "priority": "nice",
+        "isNiceToHave": true
+      },
+      "id": "node_1775923708456_804",
+      "type": "lesson",
+      "parentNode": "node_1775925519293_533",
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 24.97344284007852,
+        "x": 203.78748777852365
+      }
+    },
+    {
+      "data": {
+        "questions": [],
+        "notes": "",
+        "label": "Cascade notation",
+        "parentId": null,
+        "collapsed": false,
+        "priority": "must",
+        "isNiceToHave": false
+      },
+      "type": "lesson",
+      "id": "node_1775923725950_156",
+      "position": {
+        "y": 27.70294723092468,
+        "x": 20.04547380631425
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775928339687_187"
+    },
+    {
+      "data": {
+        "isNiceToHave": false,
+        "parentId": "node_1775881041450_396",
+        "collapsed": false,
+        "label": "",
+        "notes": "",
+        "questions": []
+      },
+      "id": "node_1775925519293_533",
+      "type": "group",
+      "position": {
+        "y": 572.6905041136155,
+        "x": 762.2831233728696
+      },
+      "roadmapId": "public_shared_roadmap",
+      "style": {
+        "background": "transparent",
+        "zIndex": -1,
+        "border": "none",
+        "height": 150,
+        "width": 440
+      }
+    },
+    {
+      "position": {
+        "y": 572.8470678194204,
+        "x": 334.31741869684026
+      },
+      "roadmapId": "public_shared_roadmap",
+      "style": {
+        "zIndex": -1,
+        "background": "transparent",
+        "border": "none",
+        "height": 150,
+        "width": 230
+      },
+      "type": "group",
+      "id": "node_1775928339687_187",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "parentId": "node_1775881041450_396",
+        "label": "",
+        "collapsed": false,
+        "isNiceToHave": false
+      }
+    },
+    {
+      "id": "node_1775930941308_583",
+      "type": "group",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "parentId": "node_1775879547260_164",
+        "label": "",
+        "collapsed": false,
+        "isNiceToHave": false
+      },
+      "style": {
+        "zIndex": -1,
+        "background": "transparent",
+        "width": 400,
+        "border": "none",
+        "height": 150
+      },
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 271.4857138764013,
+        "x": 217.4837380142867
+      }
+    },
+    {
+      "data": {
+        "label": "",
+        "parentId": "node_1775879547260_164",
+        "collapsed": false,
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      },
+      "id": "node_1775930977613_664",
+      "type": "group",
+      "roadmapId": "public_shared_roadmap",
+      "style": {
+        "width": 400,
+        "border": "none",
+        "height": 150,
+        "zIndex": -1,
+        "background": "transparent"
+      },
+      "position": {
+        "y": 270.7341346360687,
+        "x": 638.3426759781485
+      }
+    },
+    {
+      "position": {
+        "y": 1027.681324560849,
+        "x": -180.03555693974477
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "data": {
+        "collapsed": false,
+        "label": "UI",
+        "parentId": "node_1776010228827_139",
+        "questions": [],
+        "notes": ""
+      },
+      "id": "node_1775932670635_541",
+      "type": "milestone"
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "x": 33.91649668905865,
+        "y": 1448.4382852917813
+      },
+      "id": "node_1775932761508_717",
+      "type": "category",
+      "data": {
+        "parentId": "node_1776017914009_306",
+        "label": "Custom Widget",
+        "collapsed": false,
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      }
+    },
+    {
+      "id": "node_1775932797185_420",
+      "type": "category",
+      "data": {
+        "collapsed": false,
+        "parentId": "node_1775933803682_530",
+        "label": "Animation",
+        "priority": "must",
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      },
+      "position": {
+        "y": 2113.308430924198,
+        "x": 54.982117385391234
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap"
+    },
+    {
+      "position": {
+        "y": 2572.1169396446426,
+        "x": -26.831091078840814
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "data": {
+        "parentId": "node_1775933809478_114",
+        "collapsed": false,
+        "label": "State management with Riverpod v3",
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      },
+      "type": "category",
+      "id": "node_1775932873870_710"
+    },
+    {
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": false,
+        "parentId": "node_1775932873870_710",
+        "label": "Key",
+        "collapsed": false
+      },
+      "id": "node_1775932977435_251",
+      "type": "category",
+      "position": {
+        "y": 3044.5842463077756,
+        "x": 67.27550316928512
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null
+    },
+    {
+      "data": {
+        "parentId": "node_1775932761508_717",
+        "collapsed": false,
+        "label": "StatelessWidget, StatefulWidget",
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      },
+      "type": "lesson",
+      "id": "node_1775933558921_274",
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 1449.7373128157715,
+        "x": 253.27955621463394
+      }
+    },
+    {
+      "position": {
+        "y": 2114.678932807982,
+        "x": 246.49838473469958
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "collapsed": false,
+        "parentId": "node_1775932797185_420",
+        "label": "Built-in Implicit Animation (AnimatedContainer)",
+        "isNiceToHave": false
+      },
+      "id": "node_1775933569376_199",
+      "type": "lesson"
+    },
+    {
+      "position": {
+        "y": 1449.0096186937556,
+        "x": 570.0743876391947
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "label": "Widget Lifecycle, addPostFrameCallback()",
+        "parentId": "node_1775933558921_274",
+        "collapsed": false,
+        "isNiceToHave": false
+      },
+      "id": "node_1775933576046_790",
+      "type": "lesson"
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "y": 1379.2494092667503,
+        "x": 992.7996595676123
+      },
+      "type": "lesson",
+      "id": "node_1775933585902_98",
+      "data": {
+        "collapsed": false,
+        "parentId": "node_1775933576046_790",
+        "label": "flutter_hooks",
+        "priority": "should",
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": "Chủ yếu học HookWidget, useEffect và useState"
+      }
+    },
+    {
+      "position": {
+        "y": 1747.4768180004312,
+        "x": 619.2889136605364
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "id": "node_1775933661105_723",
+      "type": "lesson",
+      "data": {
+        "isNiceToHave": false,
+        "collapsed": false,
+        "parentId": "node_1775933803682_530",
+        "label": "Khai báo route, push / pop / pushAll / relaceAll / popUntilRoot",
+        "notes": "",
+        "questions": []
+      }
+    },
+    {
+      "position": {
+        "y": 28.099832261113534,
+        "x": 41.34767752704681
+      },
+      "parentNode": "node_1775976822139_226",
+      "roadmapId": "public_shared_roadmap",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "collapsed": false,
+        "label": "showDialog, showSnackBar, showModalBottomSheet",
+        "parentId": "node_1775933674648_678",
+        "isNiceToHave": false
+      },
+      "id": "node_1775933665924_140",
+      "type": "lesson"
+    },
+    {
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 1827.443729820714,
+        "x": 700.3585590288237
+      },
+      "id": "node_1775933674648_678",
+      "type": "lesson",
+      "data": {
+        "collapsed": false,
+        "parentId": "node_1775933661105_723",
+        "label": "Passing arguments / Pop with Result",
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      }
+    },
+    {
+      "id": "node_1775933763313_640",
+      "type": "milestone",
+      "data": {
+        "label": "Integrate API with dio",
+        "collapsed": false,
+        "parentId": "node_1776010425285_762",
+        "notes": "",
+        "questions": []
+      },
+      "position": {
+        "y": 3315.682739729232,
+        "x": -199.45695533759954
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap"
+    },
+    {
+      "position": {
+        "y": 1744.4567366895722,
+        "x": -16.31802702621519
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "collapsed": false,
+        "parentId": "node_1776101711081_721",
+        "label": "Navigation with auto_route v10",
+        "isNiceToHave": false
+      },
+      "id": "node_1775933803682_530",
+      "type": "category"
+    },
+    {
+      "data": {
+        "parentId": "node_1775932797185_420",
+        "label": "Localization with slang",
+        "collapsed": false,
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      },
+      "id": "node_1775933809478_114",
+      "type": "category",
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "y": 2281.208979621915,
+        "x": 14.863564572478936
+      }
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 1132.1158938176522,
+        "x": 51.43413018602132
+      },
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": false,
+        "priority": "must",
+        "parentId": "node_1775932670635_541",
+        "label": "Basic Flow",
+        "collapsed": false
+      },
+      "type": "category",
+      "id": "node_1775933921027_819"
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 1134.2249980692945,
+        "x": 258.87777356375057
+      },
+      "data": {
+        "questions": [],
+        "notes": "",
+        "label": "lib folder, main.dart, pubspec.yaml",
+        "collapsed": false,
+        "parentId": "node_1775933921027_819",
+        "priority": "must",
+        "isNiceToHave": false
+      },
+      "id": "node_1775973582407_639",
+      "type": "lesson"
+    },
+    {
+      "position": {
+        "y": 1134.0110585416305,
+        "x": 593.0268620657987
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "id": "node_1775973659747_237",
+      "type": "lesson",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "label": "runApp function, Widget Tree, MaterialApp, Scaffold, Center, Text",
+        "collapsed": false,
+        "parentId": "node_1775973582407_639",
+        "isNiceToHave": false,
+        "priority": "must"
+      }
+    },
+    {
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "x": 674.1370675475849,
+        "y": 2114.9488590802066
+      },
+      "data": {
+        "isNiceToHave": false,
+        "priority": "should",
+        "parentId": "node_1775933569376_199",
+        "label": "SlideTransition, FadeTransition with AnimationController",
+        "collapsed": false,
+        "notes": "",
+        "questions": []
+      },
+      "id": "node_1775974242814_704",
+      "type": "lesson"
+    },
+    {
+      "type": "lesson",
+      "id": "node_1775974314403_853",
+      "data": {
+        "label": "Physics-based Animation",
+        "parentId": "node_1775974242814_704",
+        "collapsed": false,
+        "isNiceToHave": true,
+        "priority": "nice",
+        "questions": [],
+        "notes": ""
+      },
+      "position": {
+        "y": 2196.176903204061,
+        "x": 912.1910864401394
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null
+    },
+    {
+      "type": "lesson",
+      "id": "node_1775974330325_501",
+      "data": {
+        "isNiceToHave": false,
+        "priority": "should",
+        "collapsed": false,
+        "label": "Lottie",
+        "parentId": "node_1775974242814_704",
+        "notes": "",
+        "questions": []
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "y": 2195.7800419038786,
+        "x": 648.3134889830337
+      }
+    },
+    {
+      "data": {
+        "collapsed": false,
+        "parentId": "node_1775879547260_164",
+        "label": "",
+        "priority": "must",
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      },
+      "type": "group",
+      "id": "node_1775975222284_470",
+      "position": {
+        "y": 269.8937899858821,
+        "x": 1065.602525355454
+      },
+      "roadmapId": "public_shared_roadmap",
+      "style": {
+        "width": 400,
+        "border": "none",
+        "height": 150,
+        "zIndex": -1,
+        "background": "transparent"
+      }
+    },
+    {
+      "data": {
+        "label": "Local functions",
+        "collapsed": false,
+        "parentId": null,
+        "priority": "nice",
+        "isNiceToHave": true,
+        "questions": [],
+        "notes": ""
+      },
+      "id": "node_1775975244715_713",
+      "type": "lesson",
+      "position": {
+        "y": 26.66169741253998,
+        "x": 28.114937156259202
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775975222284_470"
+    },
+    {
+      "id": "node_1775975246576_228",
+      "type": "lesson",
+      "data": {
+        "priority": "nice",
+        "isNiceToHave": true,
+        "collapsed": false,
+        "label": "typedef",
+        "parentId": "node_1775975244715_713",
+        "notes": "",
+        "questions": []
+      },
+      "position": {
+        "y": 26.992628807817084,
+        "x": 218.36647551066108
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775975222284_470"
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775975222284_470",
+      "position": {
+        "y": 88.36695445818953,
+        "x": 24.972287859561902
+      },
+      "data": {
+        "isNiceToHave": true,
+        "priority": "nice",
+        "collapsed": false,
+        "label": "Pattern matching",
+        "parentId": "node_1775975246576_228",
+        "notes": "",
+        "questions": []
+      },
+      "id": "node_1775975248046_680",
+      "type": "lesson"
+    },
+    {
+      "position": {
+        "y": 88.83674537253512,
+        "x": 211.70991823931377
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775975222284_470",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "label": "Records (tuple)",
+        "collapsed": false,
+        "parentId": "node_1775975248046_680",
+        "priority": "nice",
+        "isNiceToHave": true
+      },
+      "id": "node_1775975265567_132",
+      "type": "lesson"
+    },
+    {
+      "position": {
+        "y": 803.5120214114131,
+        "x": 567.5406541490736
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "id": "node_1775975445174_103",
+      "type": "lesson",
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": true,
+        "priority": "nice",
+        "collapsed": false,
+        "label": "Isolates (multi-thread)",
+        "parentId": "node_1775889681070_103"
+      }
+    },
+    {
+      "data": {
+        "questions": [],
+        "notes": "",
+        "label": "",
+        "collapsed": false,
+        "parentId": "node_1775881041450_396",
+        "isNiceToHave": false
+      },
+      "id": "node_1775975551488_363",
+      "type": "group",
+      "style": {
+        "width": 200,
+        "height": 150,
+        "border": "none",
+        "zIndex": -1,
+        "background": "transparent"
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 572.468975507436,
+        "x": 560.5583908610923
+      }
+    },
+    {
+      "position": {
+        "y": 135.96952032443573,
+        "x": 156.09471049584204
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775976822139_226",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "collapsed": false,
+        "parentId": "node_1775933674648_678",
+        "label": "Nested navigation",
+        "isNiceToHave": false
+      },
+      "id": "node_1775976191349_288",
+      "type": "lesson"
+    },
+    {
+      "data": {
+        "notes": "",
+        "questions": [],
+        "priority": "should",
+        "isNiceToHave": false,
+        "parentId": "node_1775933674648_678",
+        "label": "Deep Linking",
+        "collapsed": false
+      },
+      "type": "lesson",
+      "id": "node_1775976197379_199",
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775976835204_156",
+      "position": {
+        "x": 73.79583465284895,
+        "y": 132.76133052205205
+      }
+    },
+    {
+      "data": {
+        "priority": "should",
+        "isNiceToHave": false,
+        "collapsed": false,
+        "label": "Custom transitions",
+        "parentId": "node_1775933674648_678",
+        "notes": "",
+        "questions": []
+      },
+      "id": "node_1775976217311_899",
+      "type": "lesson",
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775976835204_156",
+      "position": {
+        "y": 23.503692155328054,
+        "x": 52.45688361569023
+      }
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775976838093_110",
+      "position": {
+        "y": 25.23267518730654,
+        "x": 72.51417310232569
+      },
+      "id": "node_1775976285215_642",
+      "type": "lesson",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "parentId": "node_1775933674648_678",
+        "label": "Route guards",
+        "collapsed": false,
+        "isNiceToHave": true,
+        "priority": "nice"
+      }
+    },
+    {
+      "position": {
+        "y": 80.89567595764834,
+        "x": 175.01743107538277
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775976822139_226",
+      "type": "lesson",
+      "id": "node_1775976528267_835",
+      "data": {
+        "priority": "must",
+        "isNiceToHave": false,
+        "collapsed": false,
+        "label": "PopScope",
+        "parentId": "node_1775933674648_678",
+        "notes": "",
+        "questions": []
+      }
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775976838093_110",
+      "position": {
+        "y": 83.30130241990673,
+        "x": 29.30321880881047
+      },
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": true,
+        "priority": "nice",
+        "parentId": "node_1775933674648_678",
+        "label": "Navigation with go_router",
+        "collapsed": false
+      },
+      "type": "lesson",
+      "id": "node_1775976692671_949"
+    },
+    {
+      "type": "group",
+      "id": "node_1775976822139_226",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "label": "",
+        "collapsed": false,
+        "parentId": "node_1775933674648_678",
+        "priority": "must",
+        "isNiceToHave": false
+      },
+      "position": {
+        "y": 1884.4530093522208,
+        "x": 180.89315104791876
+      },
+      "roadmapId": "public_shared_roadmap",
+      "style": {
+        "zIndex": -1,
+        "background": "transparent",
+        "width": 500,
+        "border": "none",
+        "height": 200
+      }
+    },
+    {
+      "id": "node_1775976835204_156",
+      "type": "group",
+      "data": {
+        "collapsed": false,
+        "parentId": "node_1775933674648_678",
+        "label": "",
+        "priority": "must",
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "style": {
+        "border": "none",
+        "height": 200,
+        "width": 310,
+        "background": "transparent",
+        "zIndex": -1
+      },
+      "position": {
+        "y": 1886.0260712047127,
+        "x": 696.3097604619137
+      }
+    },
+    {
+      "parentNode": null,
+      "style": {
+        "width": 300,
+        "border": "none",
+        "height": 150,
+        "background": "transparent",
+        "zIndex": -1
+      },
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 1888.328673546973,
+        "x": 1014.8566670852147
+      },
+      "id": "node_1775976838093_110",
+      "type": "group",
+      "data": {
+        "isNiceToHave": false,
+        "priority": "must",
+        "label": "",
+        "parentId": "node_1775933674648_678",
+        "collapsed": false,
+        "notes": "",
+        "questions": []
+      }
+    },
+    {
+      "data": {
+        "notes": "Tìm hiểu sâu folder lib/navigation trong codebase",
+        "questions": [],
+        "priority": "should",
+        "isNiceToHave": false,
+        "collapsed": false,
+        "label": "config base navigation từ đầu",
+        "parentId": "node_1775933674648_678"
+      },
+      "id": "node_1775976967827_189",
+      "type": "lesson",
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775976835204_156",
+      "position": {
+        "y": 80.83435489411454,
+        "x": 17.698513468707006
+      }
+    },
+    {
+      "id": "node_1775977990671_571",
+      "type": "category",
+      "data": {
+        "parentId": "node_1775932761508_717",
+        "label": "Assets",
+        "collapsed": false,
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "x": 56.214906246347255,
+        "y": 1545.9111485085061
+      }
+    },
+    {
+      "id": "node_1775978067911_948",
+      "type": "lesson",
+      "data": {
+        "questions": [],
+        "notes": "Test bằng cách load các file .svg",
+        "collapsed": false,
+        "label": "Khai báo & load assets",
+        "parentId": "node_1775977990671_571",
+        "isNiceToHave": false
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "y": 1547.210176032496,
+        "x": 256.83335027232073
+      }
+    },
+    {
+      "id": "node_1775978242161_735",
+      "type": "lesson",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "parentId": "node_1775978067911_948",
+        "collapsed": false,
+        "label": "flutter_gen & build_runner",
+        "isNiceToHave": false
+      },
+      "position": {
+        "x": 675.294286605746,
+        "y": 1547.4803201207824
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null
+    },
+    {
+      "position": {
+        "x": 717.8861127528485,
+        "y": 1620.639546343842
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "collapsed": false,
+        "parentId": "node_1775978242161_735",
+        "label": "Custom fonts",
+        "isNiceToHave": false,
+        "priority": "should"
+      },
+      "id": "node_1775978645509_572",
+      "type": "lesson"
+    },
+    {
+      "position": {
+        "x": 908.1225347836073,
+        "y": 1621.5279410857984
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": true,
+        "priority": "nice",
+        "parentId": "node_1775978242161_735",
+        "collapsed": false,
+        "label": "Multiple resolution (@2x, @3x)"
+      },
+      "id": "node_1775978649373_333",
+      "type": "lesson"
+    },
+    {
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 2283.4179188929643,
+        "x": 292.40798071957454
+      },
+      "type": "lesson",
+      "id": "node_1775979206396_138",
+      "data": {
+        "label": "Khai báo & code gen & get localized string",
+        "parentId": "node_1775933809478_114",
+        "collapsed": false,
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      }
+    },
+    {
+      "data": {
+        "parentId": "node_1775932797185_420",
+        "collapsed": false,
+        "label": "Switch Locale / Locale Fallback",
+        "priority": "should",
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      },
+      "type": "lesson",
+      "id": "node_1775979208916_213",
+      "position": {
+        "y": 79.74243745609874,
+        "x": 20.977820135784214
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775981849952_68"
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775981849952_68",
+      "position": {
+        "x": 26.49974820238708,
+        "y": 22.751977222091227
+      },
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": false,
+        "priority": "should",
+        "collapsed": false,
+        "label": "Localized DateTime/Currency",
+        "parentId": "node_1775932797185_420"
+      },
+      "id": "node_1775979210059_957",
+      "type": "lesson"
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "y": 2283.397104291487,
+        "x": 686.7707758660661
+      },
+      "id": "node_1775981496176_921",
+      "type": "lesson",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "parentId": "node_1775979206396_138",
+        "label": "Nested structure, String Interpolation, Pluralization, Typed Parameters",
+        "collapsed": false,
+        "isNiceToHave": false
+      }
+    },
+    {
+      "type": "lesson",
+      "id": "node_1775981548468_598",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "parentId": "node_1775932797185_420",
+        "label": "config slang từ đầu",
+        "collapsed": false,
+        "priority": "should",
+        "isNiceToHave": false
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775981849952_68",
+      "position": {
+        "y": 134.97302894129234,
+        "x": 60.35457009079721
+      }
+    },
+    {
+      "id": "node_1775981849952_68",
+      "type": "group",
+      "data": {
+        "label": "",
+        "collapsed": false,
+        "parentId": "node_1775981496176_921",
+        "isNiceToHave": false,
+        "priority": "must",
+        "questions": [],
+        "notes": ""
+      },
+      "position": {
+        "y": 2347.7442674511567,
+        "x": 670.7285755613409
+      },
+      "roadmapId": "public_shared_roadmap",
+      "style": {
+        "background": "transparent",
+        "zIndex": -1,
+        "width": 320,
+        "height": 200,
+        "border": "none"
+      }
+    },
+    {
+      "id": "node_1775981897968_894",
+      "type": "lesson",
+      "data": {
+        "priority": "nice",
+        "isNiceToHave": true,
+        "label": "Localization with ARB",
+        "parentId": "node_1775981496176_921",
+        "collapsed": false,
+        "notes": "",
+        "questions": []
+      },
+      "position": {
+        "y": 2356.876459424349,
+        "x": 1032.6405960262384
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null
+    },
+    {
+      "type": "lesson",
+      "id": "node_1775983148362_873",
+      "data": {
+        "isNiceToHave": false,
+        "collapsed": false,
+        "label": "ProviderScope, ConsumerWidget, StateProvider, ref.read, ref.watch (build Counter App)",
+        "parentId": "node_1775932873870_710",
+        "notes": "",
+        "questions": []
+      },
+      "position": {
+        "y": 2573.6727971538708,
+        "x": 366.2194827854605
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap"
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "y": 2651.388298704498,
+        "x": 452.4778156784895
+      },
+      "data": {
+        "parentId": "node_1775983148362_873",
+        "label": "ref.listen, provider.select(), HookConsumerWidget, Consumer",
+        "collapsed": false,
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      },
+      "id": "node_1775983477821_419",
+      "type": "lesson"
+    },
+    {
+      "data": {
+        "questions": [],
+        "notes": "",
+        "parentId": "node_1775932873870_710",
+        "label": "StatefulHookConsumerWidget",
+        "collapsed": false,
+        "priority": "nice",
+        "isNiceToHave": true
+      },
+      "type": "lesson",
+      "id": "node_1775983843572_359",
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775990963065_179",
+      "position": {
+        "x": 34.77951795699539,
+        "y": 78.82324157351059
+      }
+    },
+    {
+      "position": {
+        "x": 123.72875197738381,
+        "y": 26.570849917404757
+      },
+      "parentNode": "node_1775990879562_206",
+      "roadmapId": "public_shared_roadmap",
+      "id": "node_1775983920199_851",
+      "type": "lesson",
+      "data": {
+        "priority": "should",
+        "isNiceToHave": false,
+        "label": "ref.listenManual",
+        "parentId": "node_1775932873870_710",
+        "collapsed": false,
+        "notes": "",
+        "questions": []
+      }
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775990963065_179",
+      "position": {
+        "x": 348.62214382722345,
+        "y": 77.95210651462594
+      },
+      "type": "lesson",
+      "id": "node_1775984336000_385",
+      "data": {
+        "isNiceToHave": true,
+        "priority": "nice",
+        "label": "ProviderObserver",
+        "collapsed": false,
+        "parentId": "node_1775932873870_710",
+        "notes": "",
+        "questions": []
+      }
+    },
+    {
+      "parentNode": "node_1775990879562_206",
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "x": 117.53199918828739,
+        "y": 81.55631329761627
+      },
+      "id": "node_1775984390152_352",
+      "type": "lesson",
+      "data": {
+        "notes": "",
+        "questions": [],
+        "priority": "should",
+        "isNiceToHave": false,
+        "collapsed": false,
+        "parentId": "node_1775932873870_710",
+        "label": "ProviderContainer"
+      }
+    },
+    {
+      "data": {
+        "notes": "Tìm hiểu sâu folder lib/ui/base trong codebase",
+        "questions": [],
+        "priority": "should",
+        "isNiceToHave": false,
+        "parentId": "node_1775932873870_710",
+        "label": "Config base State Management từ đầu",
+        "collapsed": false
+      },
+      "id": "node_1775984481704_975",
+      "type": "lesson",
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775990879562_206",
+      "position": {
+        "x": 44.482016992907916,
+        "y": 135.04161876069384
+      }
+    },
+    {
+      "id": "node_1775984511852_706",
+      "type": "lesson",
+      "data": {
+        "notes": "",
+        "questions": [],
+        "priority": "nice",
+        "isNiceToHave": true,
+        "label": "State Management with Bloc",
+        "collapsed": false,
+        "parentId": "node_1775932873870_710"
+      },
+      "position": {
+        "y": 131.50000416486637,
+        "x": 322.12002549275894
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775990963065_179"
+    },
+    {
+      "data": {
+        "collapsed": false,
+        "parentId": "node_1775932977435_251",
+        "label": "GlobalKey",
+        "isNiceToHave": false,
+        "priority": "must",
+        "questions": [],
+        "notes": ""
+      },
+      "id": "node_1775984532938_707",
+      "type": "lesson",
+      "position": {
+        "y": 3046.3294572264895,
+        "x": 263.1967577136736
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap"
+    },
+    {
+      "position": {
+        "y": 3045.431609749258,
+        "x": 451.21553661974485
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "data": {
+        "parentId": "node_1775984532938_707",
+        "label": "UniqueKey / ValueKey / ObjectKey",
+        "collapsed": false,
+        "priority": "nice",
+        "isNiceToHave": true,
+        "questions": [],
+        "notes": ""
+      },
+      "id": "node_1775984629938_151",
+      "type": "lesson"
+    },
+    {
+      "position": {
+        "y": 27.810987531251158,
+        "x": 70.11986645257298
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775990963065_179",
+      "data": {
+        "collapsed": false,
+        "parentId": "node_1775932873870_710",
+        "label": "riverpod_generator, NotifierProvider, AsyncNotifierProvider.",
+        "isNiceToHave": true,
+        "priority": "nice",
+        "questions": [],
+        "notes": ""
+      },
+      "id": "node_1775990385988_560",
+      "type": "lesson"
+    },
+    {
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 2725.721011422323,
+        "x": 450.33519362440313
+      },
+      "data": {
+        "isNiceToHave": false,
+        "label": "StateNotifierProvider, autoDispose, family, MVVM Architecture",
+        "parentId": "node_1775983477821_419",
+        "collapsed": false,
+        "notes": "",
+        "questions": []
+      },
+      "id": "node_1775990611819_26",
+      "type": "lesson"
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1775990963065_179",
+      "position": {
+        "y": 131.63328041413206,
+        "x": 30.68202371025677
+      },
+      "id": "node_1775990865667_583",
+      "type": "lesson",
+      "data": {
+        "isNiceToHave": true,
+        "priority": "nice",
+        "parentId": "node_1775932873870_710",
+        "collapsed": false,
+        "label": "FutureProvider, StreamProvider",
+        "notes": "",
+        "questions": []
+      }
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "style": {
+        "height": 200,
+        "border": "none",
+        "width": 420,
+        "background": "transparent",
+        "zIndex": -1
+      },
+      "position": {
+        "y": 2809.1115233701976,
+        "x": 238.13513779846812
+      },
+      "id": "node_1775990879562_206",
+      "type": "group",
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": false,
+        "priority": "must",
+        "parentId": "node_1775990611819_26",
+        "collapsed": false,
+        "label": ""
+      }
+    },
+    {
+      "style": {
+        "zIndex": -1,
+        "background": "transparent",
+        "border": "none",
+        "height": 200,
+        "width": 600
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "y": 2809.24602354586,
+        "x": 705.9266067487185
+      },
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": false,
+        "priority": "must",
+        "parentId": "node_1775990611819_26",
+        "label": "",
+        "collapsed": false
+      },
+      "id": "node_1775990963065_179",
+      "type": "group"
+    },
+    {
+      "id": "node_1775991606810_921",
+      "type": "category",
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": false,
+        "collapsed": false,
+        "parentId": "node_1775932977435_251",
+        "label": "Others"
+      },
+      "position": {
+        "y": 3144.759482291641,
+        "x": 68.48244422064124
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null
+    },
+    {
+      "position": {
+        "y": 1448.1678243508768,
+        "x": 990.7243522769934
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "data": {
+        "isNiceToHave": false,
+        "priority": "should",
+        "parentId": "node_1775933576046_790",
+        "label": "BuildContext",
+        "collapsed": false,
+        "notes": "",
+        "questions": []
+      },
+      "id": "node_1775991638192_193",
+      "type": "lesson"
+    },
+    {
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 1448.4987666077025,
+        "x": 1242.8011880766821
+      },
+      "data": {
+        "parentId": "node_1775991638192_193",
+        "label": "InheritedWidget",
+        "collapsed": false,
+        "isNiceToHave": false,
+        "priority": "should",
+        "questions": [],
+        "notes": ""
+      },
+      "id": "node_1775991648341_158",
+      "type": "lesson"
+    },
+    {
+      "id": "node_1775991867686_717",
+      "type": "lesson",
+      "data": {
+        "parentId": "node_1775991989645_745",
+        "collapsed": false,
+        "label": "RenderObject, Layout & Constraints (under the hood)",
+        "isNiceToHave": true,
+        "priority": "nice",
+        "questions": [],
+        "notes": ""
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 3145.7868185633824,
+        "x": 560.5392508472512
+      }
+    },
+    {
+      "id": "node_1775991989645_745",
+      "type": "lesson",
+      "data": {
+        "priority": "must",
+        "isNiceToHave": false,
+        "parentId": "node_1775991606810_921",
+        "label": "Building Responsive UI",
+        "collapsed": false,
+        "notes": "",
+        "questions": []
+      },
+      "position": {
+        "y": 3145.888970499184,
+        "x": 263.20736935368984
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap"
+    },
+    {
+      "data": {
+        "questions": [],
+        "notes": "",
+        "label": "Native Platforms Bridge",
+        "parentId": "node_1776098039684_754",
+        "collapsed": false
+      },
+      "id": "node_1776007193378_420",
+      "type": "milestone",
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 5508.662866119833,
+        "x": -201.58441512260322
+      }
+    },
+    {
+      "position": {
+        "x": -154.60037837077516,
+        "y": 4498.542236608812
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "type": "milestone",
+      "id": "node_1776007384839_870",
+      "data": {
+        "notes": "",
+        "questions": [],
+        "collapsed": false,
+        "parentId": "node_1776097774061_757",
+        "label": "Lint"
+      }
+    },
+    {
+      "type": "milestone",
+      "id": "node_1776007506286_636",
+      "data": {
+        "parentId": "node_1776098026819_774",
+        "collapsed": false,
+        "label": "Test",
+        "notes": "",
+        "questions": []
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 5347.603312122228,
+        "x": -153.82482163600503
+      }
+    },
+    {
+      "id": "node_1776007515284_152",
+      "type": "milestone",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "parentId": "node_1776007549619_137",
+        "label": "CI/CD",
+        "collapsed": false
+      },
+      "position": {
+        "y": 5788.095526265466,
+        "x": -149.32304476558068
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap"
+    },
+    {
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 5636.449116732917,
+        "x": -150.40873333103798
+      },
+      "data": {
+        "parentId": "node_1776014936868_399",
+        "label": "Firebase",
+        "collapsed": false,
+        "questions": [],
+        "notes": ""
+      },
+      "type": "milestone",
+      "id": "node_1776007544705_169"
+    },
+    {
+      "position": {
+        "y": 5706.619983157975,
+        "x": -201.52300795352892
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "data": {
+        "label": "Build, Distribute, Publish",
+        "collapsed": false,
+        "parentId": "node_1776007544705_169",
+        "notes": "",
+        "questions": []
+      },
+      "id": "node_1776007549619_137",
+      "type": "milestone"
+    },
+    {
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 3853.9557594148155,
+        "x": -169.55922399208532
+      },
+      "data": {
+        "notes": "",
+        "questions": [],
+        "parentId": "node_1776011734881_399",
+        "collapsed": false,
+        "label": "Local Storage"
+      },
+      "id": "node_1776008048229_82",
+      "type": "milestone"
+    },
+    {
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 5890.168558478792,
+        "x": -163.94890984550113
+      },
+      "type": "milestone",
+      "id": "node_1776008056052_908",
+      "data": {
+        "notes": "",
+        "questions": [],
+        "label": "Performance",
+        "collapsed": false,
+        "parentId": "node_1776007515284_152"
+      }
+    },
+    {
+      "type": "milestone",
+      "id": "node_1776008071735_822",
+      "data": {
+        "parentId": "node_1776008056052_908",
+        "label": "Security",
+        "collapsed": true,
+        "questions": [],
+        "notes": ""
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 5978.987896331869,
+        "x": -150.64375240056881
+      }
+    },
+    {
+      "data": {
+        "notes": "",
+        "questions": [],
+        "collapsed": false,
+        "label": "Mobile-Specific Features",
+        "parentId": "node_1776008071735_822"
+      },
+      "type": "milestone",
+      "id": "node_1776008220117_323",
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "y": 6075.4411408712385,
+        "x": -192.1945508213813
+      }
+    },
+    {
+      "data": {
+        "questions": [],
+        "notes": "Tìm hiểu sâu folder lib/resourse (trừ folder l10n) trong codebase",
+        "collapsed": false,
+        "parentId": "node_1775978242161_735",
+        "label": "Resources Organization",
+        "isNiceToHave": false,
+        "priority": "must"
+      },
+      "id": "node_1776009166697_587",
+      "type": "lesson",
+      "position": {
+        "x": 451.2131764363752,
+        "y": 1620.9722021601765
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null
+    },
+    {
+      "position": {
+        "y": 4158.592648300925,
+        "x": -233.67010076835174
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "data": {
+        "collapsed": false,
+        "label": "Error/Exception Handling, Debug",
+        "parentId": "node_1776097768725_961",
+        "questions": [],
+        "notes": ""
+      },
+      "id": "node_1776009934941_223",
+      "type": "milestone"
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 942.2310787691071,
+        "x": -188.73471822903207
+      },
+      "id": "node_1776010228827_139",
+      "type": "checkpoint",
+      "data": {
+        "notes": "Chia sẻ sự khác nhau giữa Isolates và Future",
+        "questions": [
+          "What did you learn?",
+          "What was difficult?"
+        ],
+        "isNiceToHave": false,
+        "priority": "must",
+        "label": "Checkpoint 1",
+        "parentId": "node_1775846148396",
+        "collapsed": false
+      }
+    },
+    {
+      "data": {
+        "parentId": "node_1775932670635_541",
+        "collapsed": false,
+        "label": "Checkpoint 2",
+        "priority": "must",
+        "isNiceToHave": false,
+        "questions": [
+          "What did you learn?",
+          "What was difficult?"
+        ],
+        "notes": "Chia sẻ cách sử dụng codebase phần State Management/Navigation & Resources"
+      },
+      "id": "node_1776010425285_762",
+      "type": "checkpoint",
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 3229.2064749692813,
+        "x": -165.54406627493296
+      }
+    },
+    {
+      "position": {
+        "x": 57.433673699873,
+        "y": 3315.5158789400252
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "data": {
+        "questions": [],
+        "notes": "",
+        "parentId": "node_1775933763313_640",
+        "label": "Basic Flow",
+        "collapsed": false,
+        "isNiceToHave": false
+      },
+      "id": "node_1776010759486_816",
+      "type": "category"
+    },
+    {
+      "id": "node_1776011644986_784",
+      "type": "category",
+      "data": {
+        "parentId": "node_1776011873315_825",
+        "label": "Asynchronous Programming",
+        "collapsed": false,
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "y": 3523.851733566888,
+        "x": -1.7455096121988163
+      }
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "y": 3785.229937101208,
+        "x": -162.94917927357483
+      },
+      "data": {
+        "notes": "Chia sẻ cách debug/test API với Charles Proxy",
+        "questions": [
+          "What did you learn?",
+          "What was difficult?"
+        ],
+        "isNiceToHave": false,
+        "priority": "must",
+        "parentId": "node_1775933763313_640",
+        "label": "Checkpoint 3",
+        "collapsed": false
+      },
+      "id": "node_1776011734881_399",
+      "type": "checkpoint"
+    },
+    {
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 3419.42173392638,
+        "x": -18.275333537007214
+      },
+      "data": {
+        "isNiceToHave": false,
+        "label": "Hiểu cách config trong codebase",
+        "parentId": "node_1776010759486_816",
+        "collapsed": false,
+        "notes": "",
+        "questions": []
+      },
+      "id": "node_1776011873315_825",
+      "type": "category"
+    },
+    {
+      "data": {
+        "label": "Các loại ApiClient, Flow: UI -> ViewModel -> AppApiService",
+        "parentId": "node_1776020414068_518",
+        "collapsed": false,
+        "priority": "must",
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      },
+      "id": "node_1776013777132_36",
+      "type": "lesson",
+      "position": {
+        "x": 584.1009428845347,
+        "y": 3317.029392356942
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap"
+    },
+    {
+      "id": "node_1776014778072_577",
+      "type": "category",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "label": "Database (isar)",
+        "parentId": "node_1776014797837_794",
+        "collapsed": false,
+        "isNiceToHave": false
+      },
+      "position": {
+        "y": 3938.0035672998683,
+        "x": 81.71074270359668
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap"
+    },
+    {
+      "data": {
+        "label": "Key-Value Storage",
+        "collapsed": false,
+        "parentId": "node_1776008048229_82",
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      },
+      "id": "node_1776014797837_794",
+      "type": "category",
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 3853.7399082873444,
+        "x": 71.17411941422279
+      }
+    },
+    {
+      "position": {
+        "y": 5570.94446363682,
+        "x": -197.44830432895935
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "data": {
+        "notes": "",
+        "questions": [],
+        "collapsed": false,
+        "parentId": "node_1776007193378_420",
+        "label": "Platform Configuration"
+      },
+      "id": "node_1776014936868_399",
+      "type": "milestone"
+    },
+    {
+      "data": {
+        "priority": "should",
+        "isNiceToHave": false,
+        "collapsed": false,
+        "parentId": "node_1776020265275_74",
+        "label": "Config khi start dự án",
+        "notes": "* Base URL\n* Retry strategy\n* Base Response in folder lib/model/api/base\n* các file trong folder lib/data_source/api/json_decoder\n* defaultErrorResponseDecoderType / defaultSuccessResponseDecoderType\n* JWT Authorization\n* Basic Authorization\n* Common headers: User-Agent, OS, Version, Language,...\n* Refresh Token / force logout",
+        "questions": []
+      },
+      "type": "lesson",
+      "id": "node_1776016082218_282",
+      "position": {
+        "y": 3418.4291803143415,
+        "x": 724.5072066055903
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null
+    },
+    {
+      "position": {
+        "x": 988.6155111720225,
+        "y": 3418.9622332844187
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "type": "lesson",
+      "id": "node_1776016104168_552",
+      "data": {
+        "label": "Config base API Integration từ đầu",
+        "collapsed": false,
+        "parentId": "node_1776016082218_282",
+        "isNiceToHave": false,
+        "priority": "should",
+        "questions": [],
+        "notes": ""
+      }
+    },
+    {
+      "position": {
+        "y": 3739.6764389077616,
+        "x": 283.8521973088285
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "id": "node_1776016128323_113",
+      "type": "lesson",
+      "data": {
+        "priority": "nice",
+        "isNiceToHave": true,
+        "parentId": "node_1776020049990_243",
+        "collapsed": false,
+        "label": "GraphQL",
+        "notes": "",
+        "questions": []
+      }
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "x": 1073.501000189856,
+        "y": 3317.350751528949
+      },
+      "type": "lesson",
+      "id": "node_1776016256259_90",
+      "data": {
+        "notes": "Tìm hiểu folder lib/data_source/api/paging trong codebase",
+        "questions": [],
+        "priority": "must",
+        "isNiceToHave": false,
+        "collapsed": false,
+        "parentId": "node_1776013777132_36",
+        "label": "Pagination"
+      }
+    },
+    {
+      "position": {
+        "y": 3524.1550438297413,
+        "x": 703.3015998552015
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "type": "lesson",
+      "id": "node_1776016345023_196",
+      "data": {
+        "isNiceToHave": true,
+        "priority": "nice",
+        "label": "async, rxdart packages",
+        "parentId": "node_1776018090659_622",
+        "collapsed": false,
+        "notes": "",
+        "questions": []
+      }
+    },
+    {
+      "position": {
+        "y": 27.536677010465155,
+        "x": 19.95798099088256
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1776020263388_889",
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": false,
+        "priority": "should",
+        "collapsed": false,
+        "parentId": "node_1775991606810_921",
+        "label": "Upload/Download File"
+      },
+      "id": "node_1776016436484_116",
+      "type": "lesson"
+    },
+    {
+      "data": {
+        "questions": [],
+        "notes": "",
+        "parentId": "node_1775991606810_921",
+        "label": "Stream Data",
+        "collapsed": false,
+        "isNiceToHave": false,
+        "priority": "should"
+      },
+      "id": "node_1776016451915_175",
+      "type": "lesson",
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1776020263388_889",
+      "position": {
+        "y": 81.87450437826055,
+        "x": 50.851025299866706
+      }
+    },
+    {
+      "id": "node_1776016551006_689",
+      "type": "lesson",
+      "data": {
+        "notes": "",
+        "questions": [],
+        "priority": "nice",
+        "isNiceToHave": true,
+        "parentId": "node_1776018591903_728",
+        "collapsed": false,
+        "label": "Debug/Test API bằng Charles Proxy"
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "y": 3681.597898988228,
+        "x": 315.6274443267067
+      }
+    },
+    {
+      "id": "node_1776017914009_306",
+      "type": "category",
+      "data": {
+        "isNiceToHave": false,
+        "collapsed": false,
+        "label": "Built-in Widget",
+        "parentId": "node_1775933921027_819",
+        "notes": "",
+        "questions": []
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "x": 35.34154838712368,
+        "y": 1309.0353681677632
+      }
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "y": 3524.709146609391,
+        "x": 389.38999583489067
+      },
+      "data": {
+        "notes": "",
+        "questions": [],
+        "priority": "should",
+        "isNiceToHave": false,
+        "label": "easy_debounce, Completer",
+        "collapsed": false,
+        "parentId": "node_1776011644986_784"
+      },
+      "id": "node_1776018090659_622",
+      "type": "lesson"
+    },
+    {
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": false,
+        "priority": "should",
+        "label": "Network Simulation",
+        "collapsed": false,
+        "parentId": "node_1776018591903_728"
+      },
+      "id": "node_1776018572951_964",
+      "type": "lesson",
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 3633.0323738075103,
+        "x": 313.7173522566484
+      }
+    },
+    {
+      "data": {
+        "questions": [],
+        "notes": "",
+        "collapsed": false,
+        "label": "Debug/Test",
+        "parentId": "node_1776011644986_784",
+        "isNiceToHave": false
+      },
+      "id": "node_1776018591903_728",
+      "type": "category",
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "y": 3636.7098758952816,
+        "x": 54.31088754172151
+      }
+    },
+    {
+      "position": {
+        "y": 3581.917732134583,
+        "x": 311.7175784323331
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "id": "node_1776018670362_796",
+      "type": "lesson",
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": false,
+        "priority": "must",
+        "parentId": "node_1776018591903_728",
+        "label": "LogInterceptor",
+        "collapsed": false
+      }
+    },
+    {
+      "id": "node_1776019438343_647",
+      "type": "lesson",
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": false,
+        "priority": "should",
+        "collapsed": false,
+        "parentId": "node_1775991606810_921",
+        "label": "custom Interceptors trong codebase"
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1776020265275_74",
+      "position": {
+        "y": 29.977546533567875,
+        "x": 21.238872327932313
+      }
+    },
+    {
+      "position": {
+        "y": 3737.387503555991,
+        "x": 62.482868067968525
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "data": {
+        "questions": [],
+        "notes": "",
+        "label": "Others",
+        "parentId": "node_1776018591903_728",
+        "collapsed": false,
+        "isNiceToHave": false
+      },
+      "type": "category",
+      "id": "node_1776020049990_243"
+    },
+    {
+      "position": {
+        "x": 1244.3002799852297,
+        "y": 3261.284042158898
+      },
+      "style": {
+        "zIndex": -1,
+        "background": "transparent",
+        "width": 250,
+        "height": 150,
+        "border": "none"
+      },
+      "roadmapId": "public_shared_roadmap",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "parentId": "node_1776016256259_90",
+        "collapsed": false,
+        "label": "",
+        "isNiceToHave": false,
+        "priority": "must"
+      },
+      "id": "node_1776020263388_889",
+      "type": "group"
+    },
+    {
+      "id": "node_1776020265275_74",
+      "type": "group",
+      "data": {
+        "parentId": "node_1776011873315_825",
+        "label": "",
+        "collapsed": false,
+        "priority": "must",
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      },
+      "position": {
+        "y": 3365.320520012557,
+        "x": 331.56087333011226
+      },
+      "roadmapId": "public_shared_roadmap",
+      "style": {
+        "zIndex": -1,
+        "background": "transparent",
+        "border": "none",
+        "height": 150,
+        "width": 350
+      }
+    },
+    {
+      "id": "node_1776020414068_518",
+      "type": "lesson",
+      "data": {
+        "isNiceToHave": false,
+        "priority": "must",
+        "parentId": "node_1776010759486_816",
+        "label": "Tạo model với freezed, @JsonKey",
+        "collapsed": false,
+        "notes": "",
+        "questions": []
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 3317.2122169057675,
+        "x": 267.036183003422
+      }
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1776020265275_74",
+      "position": {
+        "y": 84.95682268521796,
+        "x": 16.799537138735786
+      },
+      "data": {
+        "questions": [],
+        "notes": "",
+        "parentId": "node_1775991606810_921",
+        "label": "custom json_decoder trong codebase",
+        "collapsed": false,
+        "priority": "should",
+        "isNiceToHave": false
+      },
+      "type": "lesson",
+      "id": "node_1776020976867_475"
+    },
+    {
+      "id": "node_1776051346436_99",
+      "type": "lesson",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "label": "MaterialApp, Scaffold, SafeArea, AppBar, Column, Row, Expanded, Flexible, Spacer, Align, Center, Container, SizedBox, Text, TextField, ElevatedButton, Image, Icon, GestureDetector, SingleChildScrollView, ListView, Stack",
+        "parentId": "node_1776017914009_306",
+        "collapsed": false,
+        "isNiceToHave": false,
+        "priority": "must"
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "y": 1211.1240896894653,
+        "x": 254.16334451529087
+      }
+    },
+    {
+      "position": {
+        "y": 1300.6142611381513,
+        "x": 252.8474443041141
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "id": "node_1776051348707_744",
+      "type": "lesson",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "parentId": "node_1776017914009_306",
+        "collapsed": false,
+        "label": "CustomScrollView, RefreshIndicator, GridView, PageView, TabBar, Drawer, Wrap, ClipRRect, ClipOval, MediaQuery, LayoutBuilder, ConstrainedBox, FittedBox, AspectRatio, CustomPaint, IgnorePointer",
+        "priority": "should",
+        "isNiceToHave": false
+      }
+    },
+    {
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": true,
+        "priority": "nice",
+        "collapsed": false,
+        "label": "NestedScrollView, InteractiveViewer, Table",
+        "parentId": "node_1776017914009_306"
+      },
+      "id": "node_1776070814818_596",
+      "type": "lesson",
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 1379.405425576526,
+        "x": 253.70174930157646
+      }
+    },
+    {
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 3855.878984691971,
+        "x": 324.1818749565864
+      },
+      "type": "lesson",
+      "id": "node_1776093549771_471",
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": false,
+        "priority": "must",
+        "parentId": "node_1776014797837_794",
+        "collapsed": false,
+        "label": "Lưu & Xoá Data trong Shared Preferences"
+      }
+    },
+    {
+      "position": {
+        "y": 3854.2949297792893,
+        "x": 718.3174240610339
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "data": {
+        "questions": [],
+        "notes": "",
+        "collapsed": false,
+        "parentId": "node_1776093549771_471",
+        "label": "Lưu & Xoá Data nhạy cảm trong flutter_secure_storage",
+        "isNiceToHave": false,
+        "priority": "must"
+      },
+      "type": "lesson",
+      "id": "node_1776093551837_380"
+    },
+    {
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 3938.321197259814,
+        "x": 325.42276344561776
+      },
+      "type": "lesson",
+      "id": "node_1776093905291_183",
+      "data": {
+        "label": "Tạo Schema, @collection, IsarLink, @embedded",
+        "collapsed": false,
+        "parentId": "node_1776014778072_577",
+        "priority": "must",
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      }
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "y": 3938.052015510935,
+        "x": 748.9723366190077
+      },
+      "data": {
+        "isNiceToHave": false,
+        "priority": "must",
+        "collapsed": false,
+        "parentId": "node_1776093905291_183",
+        "label": "CRUD, autoIncrement(), Query, Watching Queries",
+        "notes": "",
+        "questions": []
+      },
+      "type": "lesson",
+      "id": "node_1776094122574_15"
+    },
+    {
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 4007.688938004125,
+        "x": 990.2362709267198
+      },
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": false,
+        "priority": "should",
+        "collapsed": false,
+        "parentId": "node_1776094122574_15",
+        "label": "Index, Migration"
+      },
+      "type": "lesson",
+      "id": "node_1776094513686_559"
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "y": 4011.008975440468,
+        "x": 570.5128622864672
+      },
+      "data": {
+        "notes": "",
+        "questions": [],
+        "priority": "must",
+        "isNiceToHave": false,
+        "parentId": "node_1776094122574_15",
+        "label": "Basic flow from ViewModel to AppDatabase",
+        "collapsed": false
+      },
+      "id": "node_1776095142896_421",
+      "type": "lesson"
+    },
+    {
+      "position": {
+        "y": 4804.356164479558,
+        "x": -204.34681987821693
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "type": "milestone",
+      "id": "node_1776095290865_931",
+      "data": {
+        "notes": "",
+        "questions": [],
+        "parentId": "node_1776098034344_848",
+        "collapsed": false,
+        "label": "Codebase Architecture"
+      }
+    },
+    {
+      "id": "node_1776095637129_98",
+      "type": "lesson",
+      "data": {
+        "notes": "Test các case sau bằng cách throw lỗi trong hàm runCatching của ViewModel:\n\n1. Dù lỗi xảy ra nhưng không hiển thị lỗi lên màn hình\n2. Xử lý lỗi theo cách riêng biệt mà codebase chưa có sẵn. VD: khi lỗi thì di chuyển sang màn hình mới\n3. Cùng 1 thời điểm, show nhiều lỗi của nhiều field trong cùng 1 form",
+        "questions": [],
+        "priority": "must",
+        "isNiceToHave": false,
+        "collapsed": false,
+        "parentId": "node_1776096423113_804",
+        "label": "Tạo Custom AppException và override action, message"
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 4160.719963355261,
+        "x": 373.5851216202477
+      }
+    },
+    {
+      "id": "node_1776095888185_699",
+      "type": "lesson",
+      "data": {
+        "label": "Config base Exception Handling từ đầu",
+        "parentId": "node_1776095637129_98",
+        "collapsed": false,
+        "priority": "should",
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": "Nghiên cứu folder lib/exception trong codebase"
+      },
+      "position": {
+        "y": 4160.620406456207,
+        "x": 856.6779042089563
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap"
+    },
+    {
+      "id": "node_1776096423113_804",
+      "type": "category",
+      "data": {
+        "collapsed": false,
+        "parentId": "node_1776009934941_223",
+        "label": "Exception Handling",
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 4158.746982325491,
+        "x": 117.24421969977095
+      }
+    },
+    {
+      "position": {
+        "y": 4286.614732995621,
+        "x": 150.96340403930327
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "data": {
+        "questions": [],
+        "notes": "",
+        "collapsed": false,
+        "label": "Debug",
+        "parentId": "node_1776096423113_804",
+        "isNiceToHave": false
+      },
+      "id": "node_1776096671616_535",
+      "type": "category"
+    },
+    {
+      "type": "lesson",
+      "id": "node_1776096680897_856",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "collapsed": false,
+        "parentId": "node_1776014797837_794",
+        "label": "Log, LogMode, prettyJson, enable/disable log trong codebase",
+        "priority": "must",
+        "isNiceToHave": false
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1776097528692_446",
+      "position": {
+        "x": 26.037715927749446,
+        "y": 21.447477568125578
+      }
+    },
+    {
+      "parentNode": "node_1776097528692_446",
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 76.24107241704132,
+        "x": 127.20867554026051
+      },
+      "id": "node_1776097180403_713",
+      "type": "lesson",
+      "data": {
+        "label": "Debug, Breakpoint, StackTrace",
+        "parentId": "node_1776096680897_856",
+        "collapsed": false,
+        "isNiceToHave": false,
+        "priority": "must",
+        "questions": [],
+        "notes": ""
+      }
+    },
+    {
+      "data": {
+        "label": "Tracking Error, Crash on Firebase/Slack",
+        "collapsed": false,
+        "parentId": "node_1776014797837_794",
+        "priority": "must",
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      },
+      "type": "lesson",
+      "id": "node_1776097309620_12",
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1776097528692_446",
+      "position": {
+        "y": 136.0123886271058,
+        "x": 98.46631462107916
+      }
+    },
+    {
+      "data": {
+        "questions": [],
+        "notes": "",
+        "parentId": "node_1776096671616_535",
+        "collapsed": false,
+        "label": "",
+        "isNiceToHave": false,
+        "priority": "must"
+      },
+      "id": "node_1776097528692_446",
+      "type": "group",
+      "position": {
+        "y": 4207.803796658267,
+        "x": 355.23793282318275
+      },
+      "roadmapId": "public_shared_roadmap",
+      "style": {
+        "width": 520,
+        "border": "none",
+        "height": 200,
+        "background": "transparent",
+        "zIndex": -1
+      }
+    },
+    {
+      "data": {
+        "questions": [
+          "What did you learn?",
+          "What was difficult?"
+        ],
+        "notes": "Chia sẻ về bài toán migrate data của app cũ viết bằng React Native sang app mới viết bằng Flutter",
+        "parentId": "node_1776008048229_82",
+        "collapsed": false,
+        "label": "Checkpoint 4",
+        "isNiceToHave": false,
+        "priority": "must"
+      },
+      "id": "node_1776097768725_961",
+      "type": "checkpoint",
+      "position": {
+        "y": 4082.663417017729,
+        "x": -163.59657083934127
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap"
+    },
+    {
+      "type": "checkpoint",
+      "id": "node_1776097774061_757",
+      "data": {
+        "collapsed": false,
+        "parentId": "node_1776009934941_223",
+        "label": "Checkpoint 5",
+        "isNiceToHave": false,
+        "priority": "must",
+        "questions": [
+          "What did you learn?",
+          "What was difficult?"
+        ],
+        "notes": "Chia sẻ một số bug khó tái hiện và phải dùng các cách đặc biệt để debug"
+      },
+      "position": {
+        "x": -164.24396240510777,
+        "y": 4413.001928201776
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null
+    },
+    {
+      "id": "node_1776098026819_774",
+      "type": "checkpoint",
+      "data": {
+        "priority": "must",
+        "isNiceToHave": false,
+        "label": "Checkpoint 7",
+        "parentId": "node_1776095290865_931",
+        "collapsed": false,
+        "notes": "Chia sẻ về một số workflow tự động hoá với AI",
+        "questions": [
+          "What did you learn?",
+          "What was difficult?"
+        ]
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 5276.096958199524,
+        "x": -161.73170818589278
+      }
+    },
+    {
+      "position": {
+        "x": -165.1665551407325,
+        "y": 4656.886890471478
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "data": {
+        "parentId": "node_1776007384839_870",
+        "label": "Checkpoint 6",
+        "collapsed": false,
+        "isNiceToHave": false,
+        "priority": "must",
+        "questions": [
+          "What did you learn?",
+          "What was difficult?"
+        ],
+        "notes": "Chia sẻ về định hướng phát triển gói super_lint và AI Skills tự động fix lint trước khi commit.\n\nChia sẻ một số issue thường gặp như:\n1. IDE không warning\n2. custom_lint không warning\n3. custom_lint chiếm RAM, gây lag"
+      },
+      "id": "node_1776098034344_848",
+      "type": "checkpoint"
+    },
+    {
+      "data": {
+        "questions": [
+          "What did you learn?",
+          "What was difficult?"
+        ],
+        "notes": "",
+        "parentId": "node_1776007506286_636",
+        "label": "Big Checkpoint Phase 1",
+        "collapsed": false,
+        "isNiceToHave": false,
+        "priority": "must"
+      },
+      "type": "checkpoint",
+      "id": "node_1776098039684_754",
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 5426.034525438564,
+        "x": -189.82569551861422
+      }
+    },
+    {
+      "id": "node_1776098274872_223",
+      "type": "category",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "collapsed": false,
+        "parentId": "node_1776095290865_931",
+        "label": "Common, Re-use code",
+        "isNiceToHave": false
+      },
+      "position": {
+        "y": 4803.786981417414,
+        "x": 110.36546774566484
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap"
+    },
+    {
+      "data": {
+        "label": "DI, AppInitializer",
+        "parentId": "node_1776098274872_223",
+        "collapsed": false,
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      },
+      "id": "node_1776098293101_966",
+      "type": "category",
+      "position": {
+        "x": 131.50964589904257,
+        "y": 4933.485651374543
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap"
+    },
+    {
+      "data": {
+        "isNiceToHave": false,
+        "label": "AI Skills, Rules, Commands",
+        "parentId": "node_1776098534333_224",
+        "collapsed": false,
+        "notes": "",
+        "questions": []
+      },
+      "type": "category",
+      "id": "node_1776098503029_24",
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "y": 5148.226973288241,
+        "x": 94.89686561508461
+      }
+    },
+    {
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": false,
+        "label": "makefile, Tools dùng cho codebase",
+        "parentId": "node_1776098293101_966",
+        "collapsed": true
+      },
+      "id": "node_1776098534333_224",
+      "type": "category",
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "y": 5075.959657431415,
+        "x": 69.62731055686973
+      }
+    },
+    {
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 5227.959061378434,
+        "x": 156.04964622719964
+      },
+      "id": "node_1776098540304_304",
+      "type": "category",
+      "data": {
+        "parentId": "node_1776098503029_24",
+        "collapsed": false,
+        "label": "LeftHook",
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      }
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "y": 4498.329131405771,
+        "x": 161.25393572982864
+      },
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": false,
+        "collapsed": false,
+        "parentId": "node_1776007384839_870",
+        "label": "flutter_lints"
+      },
+      "id": "node_1776098653292_992",
+      "type": "category"
+    },
+    {
+      "id": "node_1776098671186_338",
+      "type": "category",
+      "data": {
+        "notes": "",
+        "questions": [],
+        "isNiceToHave": false,
+        "collapsed": false,
+        "parentId": "node_1776098653292_992",
+        "label": "custom_lint"
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 4581.048727284739,
+        "x": 160.7717225042378
+      }
+    },
+    {
+      "type": "lesson",
+      "id": "node_1776098863757_303",
+      "data": {
+        "notes": "",
+        "questions": [],
+        "priority": "nice",
+        "isNiceToHave": true,
+        "parentId": "node_1776100836433_94",
+        "collapsed": false,
+        "label": "Module hoá với melos: Một codebase build nhiều app"
+      },
+      "position": {
+        "y": 4804.877396859173,
+        "x": 819.8714766803074
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap"
+    },
+    {
+      "type": "lesson",
+      "id": "node_1776099640434_897",
+      "data": {
+        "label": "config, enable/disable rule in analysis_options.yaml",
+        "parentId": "node_1776098653292_992",
+        "collapsed": false,
+        "isNiceToHave": false,
+        "priority": "must",
+        "questions": [],
+        "notes": ""
+      },
+      "position": {
+        "y": 4500.3652184700995,
+        "x": 379.3896750981904
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null
+    },
+    {
+      "position": {
+        "y": 4583.099781848631,
+        "x": 377.84218292461765
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "type": "lesson",
+      "id": "node_1776100104936_102",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "collapsed": false,
+        "parentId": "node_1776098671186_338",
+        "label": "config, enable/disable rule in analysis_options.yaml",
+        "priority": "must",
+        "isNiceToHave": false
+      }
+    },
+    {
+      "position": {
+        "y": 4582.726599740217,
+        "x": 834.3883456690318
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "data": {
+        "isNiceToHave": true,
+        "priority": "nice",
+        "parentId": "node_1776100104936_102",
+        "label": "Tạo custom lint trong super_lint",
+        "collapsed": false,
+        "notes": "",
+        "questions": []
+      },
+      "id": "node_1776100126060_985",
+      "type": "lesson"
+    },
+    {
+      "type": "lesson",
+      "id": "node_1776100218508_965",
+      "data": {
+        "label": "Dart: Restart Analysis Server",
+        "collapsed": false,
+        "parentId": "node_1776099640434_897",
+        "isNiceToHave": false,
+        "priority": "must",
+        "questions": [],
+        "notes": ""
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 4500.4634403561995,
+        "x": 838.3583452941463
+      }
+    },
+    {
+      "data": {
+        "label": "shared functions, shared constants",
+        "parentId": "node_1776096423113_804",
+        "collapsed": false,
+        "priority": "must",
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      },
+      "type": "lesson",
+      "id": "node_1776100723842_207",
+      "position": {
+        "y": 21.854311885404968,
+        "x": 23.612938224663253
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1776100836433_94"
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1776100836433_94",
+      "position": {
+        "y": 83.48944966799536,
+        "x": 74.14343285487053
+      },
+      "id": "node_1776100760498_211",
+      "type": "lesson",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "label": "shared components",
+        "collapsed": false,
+        "parentId": "node_1776096423113_804",
+        "isNiceToHave": false,
+        "priority": "must"
+      }
+    },
+    {
+      "id": "node_1776100776117_100",
+      "type": "lesson",
+      "data": {
+        "questions": [],
+        "notes": "",
+        "parentId": "node_1776096423113_804",
+        "collapsed": false,
+        "label": "shared providers, SharedViewModel",
+        "isNiceToHave": false,
+        "priority": "must"
+      },
+      "position": {
+        "x": 21.321111149536705,
+        "y": 139.43110069924296
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": "node_1776100836433_94"
+    },
+    {
+      "id": "node_1776100836433_94",
+      "type": "group",
+      "data": {
+        "notes": "",
+        "questions": [],
+        "priority": "must",
+        "isNiceToHave": false,
+        "collapsed": false,
+        "label": "",
+        "parentId": "node_1776098274872_223"
+      },
+      "position": {
+        "y": 4726.109746527098,
+        "x": 430.8782178659679
+      },
+      "roadmapId": "public_shared_roadmap",
+      "style": {
+        "zIndex": -1,
+        "background": "transparent",
+        "width": 350,
+        "border": "none",
+        "height": 200
+      }
+    },
+    {
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 4935.951206769019,
+        "x": 447.48073640865346
+      },
+      "data": {
+        "priority": "must",
+        "isNiceToHave": false,
+        "parentId": "node_1776098293101_966",
+        "label": "@LazySingleton",
+        "collapsed": false,
+        "notes": "",
+        "questions": []
+      },
+      "id": "node_1776101047337_799",
+      "type": "lesson"
+    },
+    {
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 5021.186687554972,
+        "x": 659.2920706874962
+      },
+      "data": {
+        "label": "@preResolve, @factoryParam",
+        "parentId": "node_1776101047337_799",
+        "collapsed": false,
+        "isNiceToHave": false,
+        "priority": "should",
+        "questions": [],
+        "notes": ""
+      },
+      "id": "node_1776101305067_431",
+      "type": "lesson"
+    },
+    {
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "position": {
+        "y": 5021.467809243776,
+        "x": 998.6387848889001
+      },
+      "data": {
+        "label": "config DI cho codebase từ đầu",
+        "parentId": "node_1776101305067_431",
+        "collapsed": false,
+        "isNiceToHave": false,
+        "priority": "should",
+        "questions": [],
+        "notes": ""
+      },
+      "type": "lesson",
+      "id": "node_1776101321933_85"
+    },
+    {
+      "type": "lesson",
+      "id": "node_1776101415499_577",
+      "data": {
+        "parentId": "node_1776101047337_799",
+        "collapsed": false,
+        "label": "configureInjection(), AppInitializer trong codebase",
+        "isNiceToHave": false,
+        "priority": "must",
+        "questions": [],
+        "notes": ""
+      },
+      "position": {
+        "y": 4936.0484017385415,
+        "x": 665.1125781572371
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap"
+    },
+    {
+      "position": {
+        "y": 1676.3595307490395,
+        "x": 39.54844990288041
+      },
+      "parentNode": null,
+      "roadmapId": "public_shared_roadmap",
+      "type": "category",
+      "id": "node_1776101711081_721",
+      "data": {
+        "collapsed": false,
+        "parentId": "node_1775977990671_571",
+        "label": "pubspec.yaml",
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      }
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "y": 1677.6585582730295,
+        "x": 269.5898616456539
+      },
+      "data": {
+        "parentId": "node_1775977990671_571",
+        "label": "App Info, dependencies, dev_dependencies",
+        "collapsed": false,
+        "isNiceToHave": false,
+        "questions": [],
+        "notes": ""
+      },
+      "type": "lesson",
+      "id": "node_1776101742231_576"
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "position": {
+        "y": 1676.5553694116372,
+        "x": 679.6173349829339
+      },
+      "data": {
+        "isNiceToHave": false,
+        "label": "version constraint (^, exact version, any), dependency_overrides",
+        "collapsed": false,
+        "parentId": "node_1776101742231_576",
+        "notes": "",
+        "questions": []
+      },
+      "id": "node_1776101839584_552",
+      "type": "lesson"
+    },
+    {
+      "position": {
+        "y": 1508.099925237286,
+        "x": 994.8808317678561
+      },
+      "roadmapId": "public_shared_roadmap",
+      "parentNode": null,
+      "data": {
+        "priority": "should",
+        "isNiceToHave": false,
+        "parentId": "node_1775933576046_790",
+        "collapsed": false,
+        "label": "WidgetsBindingObserver",
+        "notes": "",
+        "questions": []
+      },
+      "id": "node_1776311688237_214",
+      "type": "lesson"
+    }
+  ],
+  "edges": [
+    {
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "source": "node_1775846152842",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "target": "node_1775846157099",
+      "id": "edge_1775877789167"
+    },
+    {
+      "target": "node_1775876305508_391",
+      "id": "edge_1775879326133",
+      "source": "node_1775846157099",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "sourceHandle": "s-bottom",
+      "label": ""
+    },
+    {
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775846152842",
+      "sourceHandle": "s-right",
+      "label": "",
+      "target": "node_1775874975653",
+      "id": "edge_1775879722351"
+    },
+    {
+      "id": "edge_1775880113437",
+      "target": "node_1775879486110_389",
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775874975653"
+    },
+    {
+      "target": "node_1775880216799_339",
+      "id": "edge_1775880671945",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "source": "node_1775879486110_389",
+      "label": "",
+      "sourceHandle": "s-bottom"
+    },
+    {
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775876305508_391",
+      "label": "",
+      "sourceHandle": "s-right",
+      "target": "node_1775889681070_103",
+      "id": "edge_1775889693563"
+    },
+    {
+      "source": "node_1775881029205_565",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "target": "node_1775881041450_396",
+      "id": "edge_1775889897682"
+    },
+    {
+      "target": "node_1775889747737_568",
+      "id": "edge_1775890074234",
+      "source": "node_1775889681070_103",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "label": "",
+      "sourceHandle": "s-right"
+    },
+    {
+      "label": "",
+      "sourceHandle": "s-right",
+      "source": "node_1775889723923_888",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "id": "edge_1775890082667",
+      "target": "node_1775889810791_143"
+    },
+    {
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775876305508_391",
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "target": "node_1775890346422_537",
+      "id": "edge_1775890363738"
+    },
+    {
+      "source": "node_1775890346422_537",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "label": "",
+      "sourceHandle": "s-right",
+      "target": "node_1775889723923_888",
+      "id": "edge_1775890373056"
+    },
+    {
+      "label": "",
+      "sourceHandle": "s-right",
+      "source": "node_1775846157099",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "id": "edge_1775891518039",
+      "target": "node_1775881029205_565"
+    },
+    {
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "source": "node_1775880216799_339",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "id": "edge_1775893861515",
+      "target": "node_1775879547260_164"
+    },
+    {
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "source": "node_1775879547260_164",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1775921660166",
+      "target": "node_1775906714648_941"
+    },
+    {
+      "id": "edge_1775927907418",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775923639613_34",
+      "label": "",
+      "sourceHandle": "s-right",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775889747737_568"
+    },
+    {
+      "target": "node_1775928339687_187",
+      "id": "edge_1775928439980",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#94a3b8"
+      },
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775881041450_396",
+      "label": "",
+      "sourceHandle": "s-bottom"
+    },
+    {
+      "id": "edge_1775928454530",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775925519293_533",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "source": "node_1775881041450_396"
+    },
+    {
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775879547260_164",
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "target": "node_1775930941308_583",
+      "id": "edge_1775931024104",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#94a3b8"
+      }
+    },
+    {
+      "target": "node_1775930977613_664",
+      "id": "edge_1775931027421",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "source": "node_1775879547260_164",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "label": "",
+      "sourceHandle": "s-bottom"
+    },
+    {
+      "target": "node_1775922354091_145",
+      "id": "edge_1775931032389",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#94a3b8"
+      },
+      "source": "node_1775879547260_164",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "label": "",
+      "sourceHandle": "s-bottom"
+    },
+    {
+      "id": "edge_1775972197612",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#94a3b8"
+      },
+      "target": "node_1775933558921_274",
+      "label": "",
+      "sourceHandle": "s-right",
+      "source": "node_1775932761508_717",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left"
+    },
+    {
+      "target": "node_1775846152842",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1775972236060",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775846148396",
+      "sourceHandle": "s-right",
+      "label": ""
+    },
+    {
+      "target": "node_1775973582407_639",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "source": "node_1775933921027_819",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "sourceHandle": "s-right",
+      "label": "",
+      "id": "edge_1775973780780"
+    },
+    {
+      "target": "node_1775973659747_237",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775973582407_639",
+      "sourceHandle": "s-right",
+      "label": "",
+      "id": "edge_1775973798562"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775975222284_470",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "source": "node_1775879547260_164",
+      "id": "edge_1775975350535"
+    },
+    {
+      "target": "node_1775975551488_363",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "source": "node_1775881041450_396",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "id": "edge_1775975620607"
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "source": "node_1775933661105_723",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "target": "node_1775933674648_678",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1775976020239"
+    },
+    {
+      "sourceHandle": "s-right",
+      "label": "",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775933803682_530",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775933661105_723",
+      "id": "edge_1775976050474"
+    },
+    {
+      "target": "node_1775933921027_819",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "source": "node_1775932670635_541",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "sourceHandle": "s-right",
+      "label": "",
+      "id": "edge_1775976862011"
+    },
+    {
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "source": "node_1775933674648_678",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775976835204_156",
+      "id": "edge_1775977278692"
+    },
+    {
+      "target": "node_1775976822139_226",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "source": "node_1775933674648_678",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "id": "edge_1775977284126"
+    },
+    {
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775933674648_678",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "target": "node_1775976838093_110",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1775977296609"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775933569376_199",
+      "sourceHandle": "s-right",
+      "label": "",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "source": "node_1775932797185_420",
+      "id": "edge_1775977430658"
+    },
+    {
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775933569376_199",
+      "sourceHandle": "s-right",
+      "label": "",
+      "target": "node_1775974242814_704",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1775977434010"
+    },
+    {
+      "source": "node_1775974242814_704",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "target": "node_1775974330325_501",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1775977438224"
+    },
+    {
+      "source": "node_1775974242814_704",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "target": "node_1775974314403_853",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1775977441644"
+    },
+    {
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775933803682_530",
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "target": "node_1775932797185_420",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1775977478472"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775933809478_114",
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "source": "node_1775932797185_420",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "id": "edge_1775977509909"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775977990671_571",
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775932761508_717",
+      "id": "edge_1775978000385"
+    },
+    {
+      "target": "node_1775978645509_572",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775978242161_735",
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "id": "edge_1775979353698"
+    },
+    {
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "source": "node_1775978242161_735",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775978649373_333",
+      "id": "edge_1775979355795"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775981849952_68",
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775981496176_921",
+      "id": "edge_1775981935807"
+    },
+    {
+      "target": "node_1775981897968_894",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "source": "node_1775981496176_921",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "id": "edge_1775981938020"
+    },
+    {
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "source": "node_1775933809478_114",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775932873870_710",
+      "id": "edge_1775981971686"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775979206396_138",
+      "label": "",
+      "sourceHandle": "s-right",
+      "source": "node_1775933809478_114",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "id": "edge_1775983127228"
+    },
+    {
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775979206396_138",
+      "label": "",
+      "sourceHandle": "s-right",
+      "target": "node_1775981496176_921",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1775983136362"
+    },
+    {
+      "sourceHandle": "s-right",
+      "label": "",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "source": "node_1775932873870_710",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775983148362_873",
+      "id": "edge_1775983192809"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775983477821_419",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "source": "node_1775983148362_873",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "id": "edge_1775990302478"
+    },
+    {
+      "target": "node_1775990611819_26",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775983477821_419",
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "id": "edge_1775990802486"
+    },
+    {
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "source": "node_1775990611819_26",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775990879562_206",
+      "id": "edge_1775991153804"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775990963065_179",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775990611819_26",
+      "id": "edge_1775991157295"
+    },
+    {
+      "target": "node_1775932977435_251",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "source": "node_1775932873870_710",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "id": "edge_1775991306743"
+    },
+    {
+      "target": "node_1775984532938_707",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775932977435_251",
+      "sourceHandle": "s-right",
+      "label": "",
+      "id": "edge_1775991424759"
+    },
+    {
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775984532938_707",
+      "sourceHandle": "s-right",
+      "label": "",
+      "target": "node_1775984629938_151",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1775991427194"
+    },
+    {
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775932977435_251",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "target": "node_1775991606810_921",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1775991633979"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775991867686_717",
+      "sourceHandle": "s-right",
+      "label": "",
+      "source": "node_1775991989645_745",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "id": "edge_1775992279399"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776007549619_137",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "source": "node_1776007544705_169",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "id": "edge_1776008327737"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776007515284_152",
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "source": "node_1776007549619_137",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "id": "edge_1776008337580"
+    },
+    {
+      "source": "node_1776007515284_152",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "target": "node_1776008056052_908",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1776008435034"
+    },
+    {
+      "source": "node_1776008056052_908",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "target": "node_1776008071735_822",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1776008443598"
+    },
+    {
+      "target": "node_1776008220117_323",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "source": "node_1776008071735_822",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "id": "edge_1776008452519"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775978067911_948",
+      "sourceHandle": "s-right",
+      "label": "",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775977990671_571",
+      "id": "edge_1776009288007"
+    },
+    {
+      "sourceHandle": "s-right",
+      "label": "",
+      "source": "node_1775978067911_948",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775978242161_735",
+      "id": "edge_1776009290655"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776009166697_587",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775978242161_735",
+      "id": "edge_1776009371686"
+    },
+    {
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "source": "node_1775846148396",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776010228827_139",
+      "id": "edge_1776010265909"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775932670635_541",
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "source": "node_1776010228827_139",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "id": "edge_1776010268625"
+    },
+    {
+      "target": "node_1776010425285_762",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "source": "node_1775932670635_541",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "id": "edge_1776010598361"
+    },
+    {
+      "target": "node_1775933763313_640",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "source": "node_1776010425285_762",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "id": "edge_1776010601173"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776011734881_399",
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "source": "node_1775933763313_640",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "id": "edge_1776011809605"
+    },
+    {
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "source": "node_1776011734881_399",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776008048229_82",
+      "id": "edge_1776011812307"
+    },
+    {
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1776007193378_420",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776014936868_399",
+      "id": "edge_1776015094893"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776007544705_169",
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "source": "node_1776014936868_399",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "id": "edge_1776015104151"
+    },
+    {
+      "source": "node_1776008048229_82",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "sourceHandle": "s-right",
+      "label": "",
+      "target": "node_1776014797837_794",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1776015162159"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776014778072_577",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "source": "node_1776014797837_794",
+      "id": "edge_1776015178093"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776014853511_845",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "source": "node_1776014778072_577",
+      "id": "edge_1776015181719"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775991989645_745",
+      "sourceHandle": "s-right",
+      "label": "",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775991606810_921",
+      "id": "edge_1776017827049"
+    },
+    {
+      "source": "node_1775933921027_819",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "target": "node_1776017914009_306",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1776017936316"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775932761508_717",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "source": "node_1776017914009_306",
+      "id": "edge_1776017939594"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776018090659_622",
+      "sourceHandle": "s-right",
+      "label": "",
+      "source": "node_1776011644986_784",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "id": "edge_1776018423062"
+    },
+    {
+      "source": "node_1776018090659_622",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "sourceHandle": "s-right",
+      "label": "",
+      "target": "node_1776016345023_196",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1776018431681"
+    },
+    {
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775933763313_640",
+      "label": "",
+      "sourceHandle": "s-right",
+      "target": "node_1776010759486_816",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1776019826456"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775975445174_103",
+      "label": "",
+      "sourceHandle": "s-right",
+      "source": "node_1775889681070_103",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "id": "edge_1776019958218"
+    },
+    {
+      "target": "node_1776018670362_796",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "source": "node_1776018591903_728",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "sourceHandle": "s-right",
+      "label": "",
+      "id": "edge_1776019975894"
+    },
+    {
+      "sourceHandle": "s-right",
+      "label": "",
+      "source": "node_1776018591903_728",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776018572951_964",
+      "id": "edge_1776019978862"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776016551006_689",
+      "sourceHandle": "s-right",
+      "label": "",
+      "source": "node_1776018591903_728",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "id": "edge_1776019985745"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776016128323_113",
+      "label": "",
+      "sourceHandle": "s-right",
+      "source": "node_1776020049990_243",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "id": "edge_1776020063921"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776020049990_243",
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1776018591903_728",
+      "id": "edge_1776020075660"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776018591903_728",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1776011644986_784",
+      "id": "edge_1776020120670"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776011644986_784",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "source": "node_1776011873315_825",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "id": "edge_1776020126827"
+    },
+    {
+      "target": "node_1776016256259_90",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1776013777132_36",
+      "sourceHandle": "s-right",
+      "label": "",
+      "id": "edge_1776020219068"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776020263388_889",
+      "sourceHandle": "s-right",
+      "label": "",
+      "source": "node_1776016256259_90",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "id": "edge_1776020319087"
+    },
+    {
+      "source": "node_1776010759486_816",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "sourceHandle": "s-right",
+      "label": "",
+      "target": "node_1776020414068_518",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1776020608651"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776013777132_36",
+      "sourceHandle": "s-right",
+      "label": "",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "source": "node_1776020414068_518",
+      "id": "edge_1776020716961"
+    },
+    {
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1776010759486_816",
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "target": "node_1776011873315_825",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1776020763067"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776020265275_74",
+      "sourceHandle": "s-right",
+      "label": "",
+      "source": "node_1776011873315_825",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "id": "edge_1776021171383"
+    },
+    {
+      "sourceHandle": "s-right",
+      "label": "",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1776020265275_74",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776016082218_282",
+      "id": "edge_1776021197571"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776016104168_552",
+      "sourceHandle": "s-right",
+      "label": "",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1776016082218_282",
+      "id": "edge_1776021204522"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776051346436_99",
+      "sourceHandle": "s-right",
+      "label": "",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1776017914009_306",
+      "id": "edge_1776071428233"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776051348707_744",
+      "sourceHandle": "s-right",
+      "label": "",
+      "source": "node_1776017914009_306",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "id": "edge_1776071432049"
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "source": "node_1776017914009_306",
+      "sourceHandle": "s-right",
+      "label": "",
+      "target": "node_1776070814818_596",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1776071439129"
+    },
+    {
+      "source": "node_1776014797837_794",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "sourceHandle": "s-right",
+      "label": "",
+      "target": "node_1776093549771_471",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1776093629263"
+    },
+    {
+      "sourceHandle": "s-right",
+      "label": "",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1776014778072_577",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776093905291_183",
+      "id": "edge_1776095361056"
+    },
+    {
+      "sourceHandle": "s-right",
+      "label": "",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1776093549771_471",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776093551837_380",
+      "id": "edge_1776096246856"
+    },
+    {
+      "target": "node_1776094122574_15",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "source": "node_1776093905291_183",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "label": "",
+      "sourceHandle": "s-right",
+      "id": "edge_1776096289398"
+    },
+    {
+      "source": "node_1776094122574_15",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "target": "node_1776095142896_421",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1776096307181"
+    },
+    {
+      "source": "node_1776094122574_15",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "target": "node_1776094513686_559",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1776096315413"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776096423113_804",
+      "sourceHandle": "s-right",
+      "label": "",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1776009934941_223",
+      "id": "edge_1776097469601"
+    },
+    {
+      "target": "node_1776096671616_535",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "source": "node_1776096423113_804",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "id": "edge_1776097472475"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776095637129_98",
+      "sourceHandle": "s-right",
+      "label": "",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1776096423113_804",
+      "id": "edge_1776097478726"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776095888185_699",
+      "label": "",
+      "sourceHandle": "s-right",
+      "source": "node_1776095637129_98",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "id": "edge_1776097487919"
+    },
+    {
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "source": "node_1776096671616_535",
+      "sourceHandle": "s-right",
+      "label": "",
+      "target": "node_1776097528692_446",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1776097620490"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776097768725_961",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "source": "node_1776008048229_82",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "id": "edge_1776097818877"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776009934941_223",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "source": "node_1776097768725_961",
+      "id": "edge_1776097821593"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776098039684_754",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "source": "node_1776007506286_636",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "id": "edge_1776098092005"
+    },
+    {
+      "source": "node_1776098039684_754",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "target": "node_1776007193378_420",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1776098094682"
+    },
+    {
+      "target": "node_1776098274872_223",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "source": "node_1776095290865_931",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "sourceHandle": "s-right",
+      "label": "",
+      "id": "edge_1776098782130"
+    },
+    {
+      "source": "node_1776098274872_223",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "target": "node_1776098293101_966",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1776098806403"
+    },
+    {
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "source": "node_1776098293101_966",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776098534333_224",
+      "id": "edge_1776098975503"
+    },
+    {
+      "target": "node_1776098503029_24",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "source": "node_1776098534333_224",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "id": "edge_1776098985992"
+    },
+    {
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1776098503029_24",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776098540304_304",
+      "id": "edge_1776098989288"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776098653292_992",
+      "sourceHandle": "s-right",
+      "label": "",
+      "source": "node_1776007384839_870",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "id": "edge_1776099107759"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776098671186_338",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "source": "node_1776098653292_992",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "id": "edge_1776099120117"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776099640434_897",
+      "sourceHandle": "s-right",
+      "label": "",
+      "source": "node_1776098653292_992",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "id": "edge_1776100024406"
+    },
+    {
+      "source": "node_1776100104936_102",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "sourceHandle": "s-right",
+      "label": "",
+      "target": "node_1776100126060_985",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1776100163100"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776100104936_102",
+      "label": "",
+      "sourceHandle": "s-right",
+      "source": "node_1776098671186_338",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "id": "edge_1776100170804"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776100218508_965",
+      "sourceHandle": "s-right",
+      "label": "",
+      "source": "node_1776099640434_897",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "id": "edge_1776100227659"
+    },
+    {
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1776009934941_223",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776097774061_757",
+      "id": "edge_1776100578381"
+    },
+    {
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "source": "node_1776097774061_757",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776007384839_870",
+      "id": "edge_1776100636318"
+    },
+    {
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1776007384839_870",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776098034344_848",
+      "id": "edge_1776100638847"
+    },
+    {
+      "target": "node_1776095290865_931",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1776098034344_848",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "id": "edge_1776100641654"
+    },
+    {
+      "target": "node_1776098026819_774",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "source": "node_1776095290865_931",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "id": "edge_1776100645509"
+    },
+    {
+      "target": "node_1776007506286_636",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1776098026819_774",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "id": "edge_1776100648585"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776098863757_303",
+      "label": "",
+      "sourceHandle": "s-right",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1776100836433_94",
+      "id": "edge_1776100898021"
+    },
+    {
+      "sourceHandle": "s-right",
+      "label": "",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1776098274872_223",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776100836433_94",
+      "id": "edge_1776101144825"
+    },
+    {
+      "target": "node_1776101047337_799",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "source": "node_1776098293101_966",
+      "sourceHandle": "s-right",
+      "label": "",
+      "id": "edge_1776101163059"
+    },
+    {
+      "target": "node_1776101305067_431",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "source": "node_1776101047337_799",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "label": "",
+      "sourceHandle": "s-right",
+      "id": "edge_1776101347891"
+    },
+    {
+      "target": "node_1776101321933_85",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "source": "node_1776101305067_431",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "sourceHandle": "s-right",
+      "label": "",
+      "id": "edge_1776101350935"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776101415499_577",
+      "sourceHandle": "s-right",
+      "label": "",
+      "source": "node_1776101047337_799",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "id": "edge_1776101440735"
+    },
+    {
+      "target": "node_1776101711081_721",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-top",
+      "source": "node_1775977990671_571",
+      "sourceHandle": "s-bottom",
+      "label": "",
+      "id": "edge_1776101725162"
+    },
+    {
+      "source": "node_1776101711081_721",
+      "targetHandle": "t-top",
+      "roadmapId": "public_shared_roadmap",
+      "label": "",
+      "sourceHandle": "s-bottom",
+      "target": "node_1775933803682_530",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "id": "edge_1776101726973"
+    },
+    {
+      "target": "node_1776101839584_552",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1776101742231_576",
+      "label": "",
+      "sourceHandle": "s-right",
+      "id": "edge_1776101977945"
+    },
+    {
+      "target": "node_1775991638192_193",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775933576046_790",
+      "sourceHandle": "s-right",
+      "label": "",
+      "id": "edge_1776311628010"
+    },
+    {
+      "target": "node_1775933576046_790",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775933558921_274",
+      "sourceHandle": "s-right",
+      "label": "",
+      "id": "edge_1776311643218"
+    },
+    {
+      "label": "",
+      "sourceHandle": "s-right",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "source": "node_1775933576046_790",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1776311688237_214",
+      "id": "edge_1776311711379"
+    },
+    {
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "target": "node_1775991648341_158",
+      "sourceHandle": "s-right",
+      "label": "",
+      "source": "node_1775991638192_193",
+      "roadmapId": "public_shared_roadmap",
+      "targetHandle": "t-left",
+      "id": "edge_1776311827629"
+    },
+    {
+      "target": "node_1775933585902_98",
+      "markerEnd": {
+        "color": "#94a3b8",
+        "type": "arrowclosed"
+      },
+      "source": "node_1775933576046_790",
+      "targetHandle": "t-left",
+      "roadmapId": "public_shared_roadmap",
+      "label": "",
+      "sourceHandle": "s-right",
+      "id": "edge_1776311832215"
+    }
+  ]
+}
